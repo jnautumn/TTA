@@ -1,6 +1,7 @@
 my_list=([3,45,83])
 numbers= open("Numbers.txt","w")
 for i in range(1):
+    i = numbers
     numbers.write(str(my_list))
     numbers.write("\n")
 numbers.close()
